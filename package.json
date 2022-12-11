@@ -1,0 +1,20 @@
+{
+  "name": "toplegal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-express": "^2.0.12",
+    "slspress": "^2.2.5",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "serverless-offline": "^12.0.1"
+  }
+}
