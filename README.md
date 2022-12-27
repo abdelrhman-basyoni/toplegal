@@ -1,23 +1,46 @@
-# toplegal
-# steps to run the project
-  1- install serverless globally:
+# Toplegal
 
+## Introduction
+this project is about runnning serverless function offline and creating simple endpoints with dynamodb
 
-      $npm install -g serverless
+## Technologies
+- expressjs
+- serverless 
+- nodejs
+- javascript
+- dynamodb
+- winston (for logging)
 
-      
-  2- install dynamodb:
+## Setup
+ 1- install serverless globally:
+ ```
+ $ npm install -g serverless
+ ```
+ 2- install dynamodb
   
-      - you nedd to install java Runtime Engine JRE version 6 or higher according to your os
-      - run in the project folder  
-        sls dynamodb install
-        or 
+- you nedd to install java Runtime Engine JRE version 6 or higher according to your os.
+      
+- run in the project folder 
+
+ ```
+ sls dynamodb install
+ ```
+- or 
+        ```
         serverless dynamodb install
+        ```
       
-  3- install dependecies:
+3- install dependecies:
   
-      - run npm install in the project folder
+- run
+      ```
+      npm install
+      ```
+      in the project folder
       
-  4- start the project"
-  
-      - run serverless offline start  
+4- start the project
+```
+run serverless offline start
+```
+
+
